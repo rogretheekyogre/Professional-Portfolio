@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 88%;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+section>h2 {
+    flex-basis: 23%;
+    text-align: right;
+    padding-right: 20px;
+    border-right: 3px solid black;
+    font-size: 36px;
+}
+
+section>div {
+    flex-basis: 77%;
+    padding-left: 10px
+}
+.work{display: flex;flex-wrap: wrap;justify-content: center;}
