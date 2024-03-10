@@ -36,3 +36,8 @@ section>div {
     justify-content: center;
 }
 
+.wDiv {
+    border: 20px outset rgb(18, 67, 80);
+    background-color: rgb(212, 192, 192);
+    text-align: left;
+}
